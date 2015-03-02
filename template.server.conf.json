@@ -1,0 +1,17 @@
+/*
+* This is a template to create a server configuration file. Copy this file to the same location,
+* and rename it to 'server.conf.json' (MAKE SURE to remove this comment). 
+* 
+* serverUrl:    This is MANDATORY, should be set to the URL of the LIA server (starting with http).
+* serverPort:   This is optional, and should be set to the port of your LIA server (if it uses one).
+* browser:      This is optional, and should be set to the name of the browser (firefox, Google Chrome etc) you want to use for your app. If not set, it defaults to your default system browser.
+* appUrl:       This is optional, and should be set if you have an alternate host URL set (starting with http). If not set, it defaults to 'http://localhost'.
+* appPort:      This is optional, and should be set if you'd like to use a custom port. If not set, it defaults to 9000.
+*/
+{
+  "serverUrl": "LIA SERVER URL HERE",
+  "serverPort": 80,
+  "browser": "BROWSER NAME HERE",
+  "appUrl": "LOCAL APP URL HERE",
+  "appPort": 9000
+}

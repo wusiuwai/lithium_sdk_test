@@ -1,0 +1,16 @@
+#li-body {
+  .li-content {
+    .li-community-message {
+      .li-message-reply-button {
+        padding: $padding-xlarge-vertical 0;
+
+        .li-common-button {
+          font-weight: bold;
+          padding: $padding-large-vertical $padding-large-horizontal;
+          background-color: $li-reply-btn-bg;
+          border-color: $li-reply-btn-bg;
+        }
+      }
+    }
+  }
+}

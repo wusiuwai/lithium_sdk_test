@@ -1,0 +1,16 @@
+{
+  "name": "li-alexwu",
+  "dependencies": {
+    "gulp": "3.8.6"
+  },
+  "devDependencies": {
+    "LDKn": "git+ssh://git@github.com:lithiumtech/LDKn.git#develop"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lithiumtech/li-alexwu.git"
+  }
+}

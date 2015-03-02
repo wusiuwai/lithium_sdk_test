@@ -1,0 +1,12 @@
+{
+  "li": {
+    "community": {
+      "message-subject": {
+        "text": {
+          "qanda-prefix": "Q.",
+          "forum-prefix": ""
+        }
+      }
+    }
+  }
+}

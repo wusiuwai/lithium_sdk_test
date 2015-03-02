@@ -1,0 +1,20 @@
+{
+  "repo": "li-alexwu",
+  "module": "li.customer",
+  "type": "app",
+  "target": "customer",
+  "appName": "lia",
+  "appDevice": "mobile",
+  "dependencies": [
+    "li-community-app"
+  ],
+  "indexHtmlPath": "bower_components/li-community-app/src/index.html",
+  "server": {
+    "configPath": "server.conf.json",
+    "connectPort": 9000,
+    "livereloadPort": 35728
+  },
+  "plugin": {
+    "compress": true
+  }
+}

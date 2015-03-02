@@ -1,0 +1,23 @@
+{
+  "name": "li-alexwu",
+  "version": "0.0.1",
+  "ignore": [
+    "build",
+    "test",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jscs.json",
+    ".jshintrc",
+    "Gruntfile.js",
+    "gulpfile.js",
+    "bower.json",
+    "karma-e2e.conf.js",
+    "karma.conf.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "li-community-app": "git@github.com:lithiumtech/li-community-app.git#release/14.12"
+  }
+}

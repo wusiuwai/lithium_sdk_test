@@ -1,0 +1,37 @@
+#li-body {
+  .li-content {
+    .li-community-message-subject {
+      display: block;
+      font-size: $font-size-base;
+      line-height: $line-height-computed;
+      vertical-align: middle;
+      width: 100%;
+
+      .li-subject-prefix {
+        color: $gray-light;
+      }
+    }
+
+    .li-community-message-topic-view,
+    .li-community-message-reply-view {
+      .li-community-message-subject {
+        @include li-messages-h2();
+        font-weight: $li-message-subject-font-weight;
+        margin: $padding-large-vertical 0;
+      }
+
+      &.li-community-message-blog-topic-view {
+        .li-community-message-subject {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .li-community-message-summary-topic-view,
+    .li-community-message-summary-blog-view {
+      .li-community-message-subject {
+        @include text-overflow();
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "li": {
+    "community": {
+      "message-reply-button": {
+        "text": {
+          "verify-email": "Please verify your email address to participate.",
+          "forum-title": "Reply To Post",
+          "qanda-title": "Answer",
+          "blog-title": "Comment",
+          "tkb-title": "Comment"
+        }
+      }
+    }
+  }
+}

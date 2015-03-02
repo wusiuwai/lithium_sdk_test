@@ -1,0 +1,29 @@
+{
+  "quilt": {
+    "layout": "mobile-page",
+    "add": [
+      {
+        "to": "common-header",
+        "component": [
+          {
+            "id": "ng:li-community-header"
+          }
+        ]
+      },
+      {
+        "to": "main-content",
+        "component": [
+          {
+            "id": "ng:li-customer-acme"
+          },
+          {
+            "id": "ng:li-community-page-header"
+          },
+          {
+            "id": "ng:li-community-node-recent-activity"
+          }
+        ]
+      }
+    ]
+  }
+}
